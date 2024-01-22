@@ -5,6 +5,7 @@ class Solution {
         int length = s.length();
         int count = 0;
         for(int i=0; i< length; i++){
+    // Using 2 Variables
             // int prev = count;
             // if(s.charAt(i) == '('){
             //     count++;
@@ -13,6 +14,7 @@ class Solution {
             // }
             // if((prev == 0 && count ==1) || (count == 0 && prev == 1)) continue;
             // result = result + s.charAt(i);
+    //Optimize using single variable.
             if(s.charAt(i) == '('){
                 if(count>0) result = result + s.charAt(i);
                 count++;
