@@ -15,6 +15,8 @@ class Solution {
             // if((prev == 0 && count ==1) || (count == 0 && prev == 1)) continue;
             // result = result + s.charAt(i); 
     //Optimize using single variable.  
+            // result = result + s.charAt(i); 
+    //Optimize using single variable.
             if(s.charAt(i) == '('){
                 if(count>0) result = result + s.charAt(i);
                 count++;
