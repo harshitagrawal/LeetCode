@@ -1,4 +1,4 @@
-package DesignTextEditor_2296;
+package Q2296_DesignTextEditor;
 
 class ListNode {
     char val;

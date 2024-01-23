@@ -1,4 +1,4 @@
-package AddTwoNumbers_2;
+package Q2_AddTwoNumbers;
 
 class ListNode {
          int val;

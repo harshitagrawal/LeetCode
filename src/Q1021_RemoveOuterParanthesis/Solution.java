@@ -1,4 +1,4 @@
-package RemoveOuterParanthesis_1021;
+package Q1021_RemoveOuterParanthesis;
 class Solution {
     public static String removeOuterParentheses(String s) {
         String result = new String();
