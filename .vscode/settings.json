@@ -2,7 +2,9 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "/Users/harshitagrawal/Library/CloudStorage/OneDrive-SAPFioneer/Finnovate 2/JAVA/javafx-sdk-23/lib/javafx.base.jar",
+        "/Users/harshitagrawal/Library/CloudStorage/OneDrive-SAPFioneer/Finnovate 2/JAVA/javafx-sdk-23/lib/javafx.controls.jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

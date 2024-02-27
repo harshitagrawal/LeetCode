@@ -24,7 +24,7 @@ class Solution {
         // return rotateRight(head, k-1);
         
         if(k==0 || head==null || head.next==null) return head;
-        int length = 0, n, split;
+        int length = 0, split;
         ListNode tmp = head, last = head;
         while(tmp!=null){
             length++;

@@ -10,10 +10,11 @@ class TreeNode {
     TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left = left; this.right = right;}
 }
 
-
+@SuppressWarnings("unchecked")
 public class Solution {
     int result = 0;
 
+    @SuppressWarnings("rawtypes")
     public Pair<Integer, Integer> averageHelper(TreeNode root){
        if( root == null ){
            return new Pair(0,0);
@@ -37,3 +38,4 @@ public class Solution {
         averageHelper(root);
         return result;
     }
+}
